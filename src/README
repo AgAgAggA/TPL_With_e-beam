@@ -1,0 +1,25 @@
+# DFM: Final Project
+
+## How to Compile
+In this directory, enter the following command:
+```
+$ make
+```
+It will generate the executable file "TPLE" in "/bin/".
+
+If you want to remove it, please enter the following command:
+```
+$ make clean
+```
+
+## How to Run
+In this directory, enter the following command:
+```
+Usage: ../bin/TPLE  [Coloring distance] [Original testcase file path] [Your output file path]
+```
+e.g.
+```
+$ ../bin/TPLE 0.064 ../testcase/M0.out ../output/M0_0064.out
+```
+It will generate the result file in "output/".
+
